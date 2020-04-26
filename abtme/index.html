@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e94d846b38.js" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Knewave&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    
+    
+    <script src="scripts/pace.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    
+
+    <!--    files   -->
+    <link rel="stylesheet" href="style_sheets/style.css">
+
+</head>
+
+<body>
+
+    <!-- ..start..   -->
+
+    
+            <div id="preloader">
+                    <div class="container">
+                <h2 class="h">
+            L O C
+            <span class="s1">l o c</span>
+            <span class="s2">l o c</span>
+            <span class="s3"><span class="life">life</span> <span class="on">on</span><span class="code">code</span></span>
+        </h2>
+    </div>
+    
+<div class="container d-none d-sm-block">
+    <div class="heart-rate">
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="73px" viewBox="0 0 150 73" enable-background="new 0 0 150 73" xml:space="preserve">
+    <polyline fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" points="0,45.486 38.514,45.486 44.595,33.324 50.676,45.486 57.771,45.486 62.838,55.622 71.959,9 80.067,63.729 84.122,45.486 97.297,45.486 103.379,40.419 110.473,45.486 150,45.486"
+    />
+  </svg>
+  <div class="fade-in"></div>
+  <div class="fade-out"></div>
+</div>
+    </div>    
+            
+<div class="container d-block d-sm-none">
+    <div class="heart-ratesm">
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="73px" viewBox="0 0 150 73" enable-background="new 0 0 150 73" xml:space="preserve">
+    <polyline fill="none" stroke="white" stroke-width="2" stroke-miterlimit="10" points="0,45.486 38.514,45.486 44.595,33.324 50.676,45.486 57.771,45.486 62.838,55.622 71.959,9 80.067,63.729 84.122,45.486 97.297,45.486 103.379,40.419 110.473,45.486 150,45.486"
+    />
+  </svg>
+  <div class="fade-insm"></div>
+  <div class="fade-outsm"></div>
+</div>
+    </div>
+    
+            
+        </div>
+
+        <script>
+
+        paceOptions = {
+        ajax: true,
+        document: true,
+        eventLag: false
+        };
+
+        Pace.on('done', function() {
+        
+
+        $('#preloader').delay(4000).animate({top: '-100%'}, 2000, $.bez([0.19,1,0.22,1]));
+            
+
+       });
+
+      </script>
+    
+    
+    <nav class="navbar navbar-expand-sm fixed-top navbgss">
+        <p class="navbar-brand logo whitecol" href="#">Life On Code</p>
+    </nav>
+    
+    
+    <div class="side d-none d-sm-block"></div>
+            <div class=" d-none d-sm-block">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            <div class="line4"></div>
+            <div class="line5"></div>
+            
+        </div>
+    
+    
+    <section class="sec1 section">
+        <div class="container">
+            <div class="row">
+                <div class="fon abhead mx-auto d-none d-sm-block ">ABOUT ME</div>   
+                 <svg class="arrows d-block d-sm-none">
+							<path class="a1" d="M0 0 L30 32 L60 0"></path>
+							<path class="a2" d="M0 20 L30 52 L60 20"></path>
+							<path class="a3" d="M0 40 L30 72 L60 40"></path>
+						</svg>                
+                <svg class="arrows d-none d-xl-block">
+							<path class="a1" d="M0 0 L30 32 L60 0"></path>
+							<path class="a2" d="M0 20 L30 52 L60 20"></path>
+							<path class="a3" d="M0 40 L30 72 L60 40"></path>
+						</svg>
+                <div class="fon abheadsm mx-auto d-block d-sm-none">ABOUT ME</div>
+            </div>
+
+
+    </section>
+        
+        
+        <section class="section">
+                    <div class="fon text-center fonsize d-block d-sm-none">Who Am I ?</div>
+
+            
+            <div class="col-sm-6">
+
+            <div class="col-sm-10 mypics">
+                <img src="style_sheets/pictures/test.jpg" width="100%">
+            </div>
+
+        </div>
+                        <div class="d-block d-sm-none">
+                        
+                        <h4 class="navfont text-center">I'M Karan</h4>
+                        <p class="navfon text-center"> A Full stack - Web Developer, I have serious passion on creating intuitive,dynamic user experience Websites.</p>
+            </div>
+        </section>
+
+
+    <section class="section">
+        
+        
+        <div class="container">
+                    <div class="fon text-center fonsize d-block d-sm-none smwid">What I can Do ?</div>
+                <div class="col-sm-6 wid">
+                    <div class="row">
+
+                        <div class="col-sm-8">
+                            <h4 class="navfont">Design what you want.</h4>
+                            <p class="navfont">I like to keep it short.My aim is to focus on content, UI|UX, and convey the message you want to deliver</p>
+                        </div>
+                        <div class="col-sm-5">
+                            <img src="style_sheets/pictures/design.png" width="100%" class="nodrag des">
+                        </div>
+                    
+                        
+                        <div class="col-sm-8 ">
+                            <h4 class="navfont">Develop what you need.</h4>
+                            <p class="navfont">My layouts will work on any device big | small, I love making pages come to life, websites don't have to be static</p>
+                        </div>
+                         <div class="col-sm-5">
+                            <img src="style_sheets/pictures/develope.png" width="100%" class="nodrag dev">
+                        </div>
+
+                        <div class="col-sm-12 arlin d-none d-xl-block">
+                            <img src="style_sheets/pictures/lines.png" width="100%">
+                        </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+        <section class="section">
+            <div class="container-fluid">
+        <div class="fon text-center fonsize d-block d-sm-none">Passion</div>
+        <div class="col-sm-6 pas">
+            <div class="row">
+
+
+                <div class="col-sm-6 passion">
+                    <div class="box">
+                        <div class=" textOverImage" data-text="CODING">
+                            <img src="style_sheets/pictures/code.jpg" width="100%" class="passpics">
+                        </div>
+                        <div class="text-center navfont passhead">CODING</div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-6 passion">
+                    <div class="box">
+
+                        <div class=" textOverImage" data-text="FOOTBALL">
+                            <img src="style_sheets/pictures/football.jpg" width="100%">
+                        </div>
+                        <div class="navfont passhead text-center">FOOTBALL</div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-sm-6 passion2">
+                    <div class="box">
+                        <div class=" textOverImage" data-text="TREKKING">
+                            <img src="style_sheets/pictures/trek.jpg" width="100%">
+                        </div>
+                        <div class="navfont passhead text-center">TREKKING</div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 passion2">
+                    <div class="box">
+                        <div class=" textOverImage" data-text="SWIMMING">
+                            <img src="style_sheets/pictures/swim.jpg" width="100%">
+                        </div>
+                        <div class="navfont passhead text-center">SWIMMING</div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+        </section>
+
+    
+
+
+
+
+<section class="skilsec">
+    <div class="container">
+        <div class="fon text-center fonsize d-block d-sm-none">My Skill Set</div>
+        
+        <div class="row">
+            <div class="col-sm-6 skillfull">
+                <div class="col-sm-10  progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8 ">
+                            <img src="style_sheets/pictures/html.png" width="20%;">
+                            HTML & HTML-5
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primary pbhtml"></div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="col-sm-10  progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/css.png" width="20%;">
+                            CSS & CSS-3
+                        </div>
+                    </div>
+
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primary pbcss"></div>
+                    </div><br>
+                </div>
+
+                <div class="col-sm-10  progbar headfonskill">
+
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/js.png" width="20%;">
+                            Java Script
+                        </div>
+                    </div>
+
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primary pbjs"></div>
+                    </div><br>
+                </div>
+
+                <div class="col-sm-10  progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/jq.png" width="20%;">
+                            JQuery
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primary pbjq"></div>
+                    </div><br>
+                </div>
+
+                <div class="col-sm-10  progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/php.png" width="20%;">
+                            PHP
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primaryr pbphp"></div>
+                    </div><br>
+                </div>
+
+                <div class="col-sm-10  progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/sql.png" width="20%;">
+                            My Sql
+                        </div>
+                    </div>
+
+                    <div class="progress border">
+                        <div class="progress-bar bg-primary pbsql"></div>
+                    </div><br>
+                </div>
+
+                <div class="col-sm-10  progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/boot.png" width="20%;">
+                            Bootstrap
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primary pbboot"></div>
+                    </div><br>
+                </div>
+
+                <div class="col-sm-10  progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/ajax.png" width="20%;">
+                            Ajax
+                        </div>
+                    </div>
+
+                    <div class="progress border">
+                        <div class="progress-bar bg-primary pbajax"></div>
+                    </div><br>
+                </div>
+
+                <div class="col-sm-10  progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/json.png" width="20%;">
+                            Json
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primary pbjson"></div>
+                    </div>
+                    <br>
+                </div>
+
+                <div class="col-sm-10  progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/flask.png" width="20%;">
+                            Flask
+                        </div>
+                    </div>
+
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primary pbflask"></div>
+                    </div>
+                    <br>
+                </div>
+
+                <div class="col-sm-10  progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/angular.png" width="20%;">
+                            Angular JS
+                        </div>
+                    </div>
+
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primary pbangular"></div>
+                    </div>
+                    <br>
+                </div>
+
+                <div class="col-sm-10  progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/java.png" width="20%;">
+                            Java
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primary pbjava"></div>
+                    </div>
+                    <br>
+                </div>
+
+
+
+                <br>
+                <div class="col-sm-10  progbar headfonskill">
+
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/c.png" width="20%;">
+                            C
+                        </div>
+                    </div>
+
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primary pbc"></div>
+                    </div>
+                    <br>
+                </div>
+
+                <div class="col-sm-10 progbar headfonskill">
+
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <img src="style_sheets/pictures/ps.png" width="20%;">
+                            Photoshop
+                        </div>
+                    </div>
+
+
+
+                    <div class="progress">
+                        <div class="progress-bar bg-primary pbps"></div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        
+        
+    <section>
+        <div class="social">
+            
+            
+            <div class="text-center col-xl-10 offset-xl-1 col-md-12 col-xs-0 offset-xs-0 ">
+
+                <ul class="socul col-xs-10 col-md-8 offset-md-4 offset-xl-4  col-xl-7  align-items-end">
+
+                    <li class="fb p-2 col-xs-0 col-md-1 col-xl-0" style="height:65px;">
+
+                        <a href="https://www.facebook.com/karan.bojappa?fref=nf" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                    </li>
+                    <li class="ins p-2 col-xs-0 col-md-1 col-xl-0" style="height:65px">
+
+                        <a href="https://www.instagram.com/life_on_code/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </li>
+
+                    <li class="goog p-2 col-xs-0 col-md-1 col-xl-0" style="height:65px">
+
+                        <a href="mailto:karanbojappa7@gmail.com?&subject=Hello">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+
+                    </li>
+
+                    <li class="lin p-2 col-xs-0 col-md-1 col-xl-0" style="height:65px">
+
+                        <a href="https://www.linkedin.com/in/karan-bojappa-b0a7091a5/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                    </li>
+                </ul>
+            <a href="../index.html"><button class="btn ret mx-auto d-block">Return</button></a>
+
+            <div class="text-center copywr">
+<p class="loc"><a href="https://www.instagram.com/life_on_code/" target="_blank">Life_On_Code </a><span class="heart">
+                                 <img src="style_sheets/pictures/heart.png" width="10px"></span>&copy;2020</p>
+            </div>
+            </div>
+            
+            
+        </div>
+        </section>
+
+        
+        
+        
+        <script>
+            
+            $(document).ready(function() {
+                $(window).scroll(function() {
+                    var  bgblack = $(window).scrollTop();
+                    if (bgblack > -1 && bgblack < 500) {
+                        $('body').css("background-color", "#0e0e0e");
+                        $('.navfont,.whitecol,.fon ').css("color", "#fff");
+                    } else {
+                        $('body').css("background-color", "#ffffff");
+                        $('.navfont,.whitecol,.fon ').css("color", "#000");
+                        $('body').css("transition", ".5s");
+                    }
+
+
+                });
+
+            }); 
+            
+            
+            $(document).ready(function() {
+                $(window).scroll(function() {
+                    var linescroll = $(window).scrollTop();
+                    if (linescroll > -1 && linescroll < 500) {
+                        $('.line1').css("width", "100px");
+                        $('.line1').css("transition", ".5s");
+                    } else {
+                        $('.line1').css("width", "40px");
+                    }
+
+
+                });
+
+            });
+            
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    var who = $(window).scrollTop();
+                    if(who > 500 && who < 1050)
+                       {
+                            $('.side').html("<h1 class='abthead fon fonsize whitecol text-center'>" + "Who am i ?" + "</h1>" + 
+                        "<h4 class='navfont text-center  whitecol bb'>" + "I'M Karan"+ "</h4>"+
+                                              
+                        "<p class='col-sm-8 mx-auto navfont whitecol text-center mypara'>" +"A Full stack - Web Developer, I have serious passion on creating intuitive,dynamic user experience Websites." +"</p>"); $('.abthead,.bb,.mypara').css("transition",".5s");
+                           
+                        $('.line2').css("width", "100px");
+                        $('.line2').css("transition", ".5s");
+                           
+                       }else{
+                            $('.line2').css("width", "40px");
+                    $('.abthead,.bb,.mypara').css("opacity","0");
+                       }
+                });
+            });
+            
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    var who = $(window).scrollTop();
+                    if(who > 1050 && who < 1700)
+                       {
+                            $('.side').html("<h1 class='abthead fon fonsize whitecol text-center'>" + "What i can do ?" + "</h1>");
+                            $('.side').css("transition",".5s");
+                            $('.line3').css("width", "100px");
+                            $('.line3').css("transition", ".5s")
+                       
+                       }else{
+                               $('.line3').css("width", "40px");
+                           }
+                });
+            });            
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    var who = $(window).scrollTop();
+                    if(who > 1700 && who < 2350)
+                       {
+                            $('.side').html("<h1 class='abthead fon fonsize whitecol text-center'>" + "Passion" + "</h1>");
+                            $('.abthead').css("transition",".5s");
+                            $('.line4').css("width", "100px");
+                             $('.line4').css("transition", ".5s");
+                       
+                       }else{
+                               $('.line4').css("width", "40px");
+                           }
+                });
+            });            
+            $(document).ready(function(){
+                $(window).scroll(function(){
+                    var who = $(window).scrollTop();
+                    if(who >2350)
+                       {
+                            $('.side').html("<h1 class='abthead fon fonsize whitecol text-center'>" + "Skill set" + "</h1>");
+                            $('.side').css("transition",".5s");
+                            $('.line5').css("width", "100px");
+                            $('.line5').css("transition", ".5s");
+                       
+                       }else{
+                                $('.line5').css("width", "40px");
+                           }
+                });
+            });
+            
+            
+        </script>
+
+
+
+
+
+    <!--  script's  -->
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+
+</html>

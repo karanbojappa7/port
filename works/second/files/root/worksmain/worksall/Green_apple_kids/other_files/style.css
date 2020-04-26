@@ -1,0 +1,21 @@
+body
+{
+	font-family: serif;
+}
+
+
+.container
+{
+	padding: 0px;
+	margin: 50px;
+}
+
+.star
+{
+	position: absolute;
+	right: 15px;
+	color: red;
+	text-shadow: 1px -1.5px black;
+	font-size: 1.4em;
+}
+

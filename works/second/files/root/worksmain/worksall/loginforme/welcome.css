@@ -1,0 +1,130 @@
+body
+{
+    
+    background-color: #202528;
+    font-family: serif;
+    
+}
+
+
+
+.topview
+{
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    top: 15%;
+    bottom: 10%;
+    right: 10%;
+    left: 12%;
+    background-color: #34495E;
+    box-shadow: 0px 0px 7px 7px #5D6D7E;
+    background-image: url(pictures/well.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wel
+{
+    position: absolute;
+    top: 140px;
+    color: #D5D8DC;
+    font-size: 100px;
+    letter-spacing: 30px;
+}
+
+.email
+{
+    position: absolute;
+    top: 270px;
+    color: #F2F3F4;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.logout
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 70%;
+}
+
+
+.welxs
+{
+    position: absolute;
+    top: 140px;
+    color: #D5D8DC;
+    font-size: 27px;
+    letter-spacing: 20px;
+}
+.welmd
+{
+    position: absolute;
+    top: 340px;
+    color: #D5D8DC;
+    font-size: 100px;
+    letter-spacing: 20px;
+}
+.welsm
+{
+    position: absolute;
+    top: 300px;
+    color: #D5D8DC;
+    font-size: 70px;
+    letter-spacing: 20px;
+}
+
+
+
+
+.emailxs
+{
+    position: absolute;
+    top: 250px;
+    color: #F2F3F4;
+    font-size: 15px ;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+
+
+.emailsm
+{
+    position: absolute;
+    top: 450px;
+    color: #F2F3F4;
+    font-size: 35px ;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+
+
+.emailmd
+{
+    position: absolute;
+    top: 550px;
+    color: #F2F3F4;
+    font-size: 40px ;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

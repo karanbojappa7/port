@@ -1,0 +1,121 @@
+html, body 
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: aqua;
+}
+
+#messages
+{
+	position: absolute;
+	width: 35% auto;
+	height: 420px;
+	border: 1px solid #ccc;
+	overflow:auto;
+    top: 120px;
+    border-radius: 5px;
+    z-index: -2;
+	
+}
+#messages
+{
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+}
+
+
+
+#input
+{
+}
+
+#feedback 
+{
+	display: none;
+}
+
+.name
+{
+	position: absolute;
+    top: 94px;
+}
+.words
+{
+	position: absolute;
+    top: 540px;
+    z-index: 3;
+}
+
+.submit
+{
+	position: absolute;
+    top: 540px;
+    z-index: 4;
+    height: 45px;
+    color: white;
+    background-color: indigo;
+    left: 85px;
+}
+
+.submit:hover
+{
+    background-color: white;
+    color: indigo;
+}
+
+
+/*php 1*/
+.sending
+{
+	color: white;
+    background-color: #245555;
+	border-radius: 5px;
+	font-family: serif;
+	font-size: 20px;
+	text-transform:capitalize;
+}
+
+
+.mess
+{
+	color: black;
+	background-color: #ebf4fa;
+	border-radius: 5px;
+	text-transform:capitalize;
+}
+/*	end php		*/
+
+
+
+textarea
+{
+    resize: none;
+}
+
+
+.emoji
+{
+    position: absolute;
+    top: 500px;
+    right: 480px;
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

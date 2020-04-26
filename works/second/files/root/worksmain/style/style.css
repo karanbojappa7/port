@@ -1,0 +1,256 @@
+body
+{
+    background-color:#1B2631;
+    font-family: serif;
+}
+
+
+.canv,.login,.global,.greenapple,.error
+{
+    box-shadow: 5px 5px 5px 5px #1B2631; 
+}
+
+.canv:hover,.login:hover,.global:hover,.greenapple:hover,.error:hover
+{
+    box-shadow: 2px 2px 3px 2px white;
+}
+
+
+
+	.canv
+			{
+				position: absolute;
+				top: 150px;
+			}
+			
+			.login
+			{
+				position: absolute;
+				top: 400px;
+			}
+			
+			.global
+			{
+				position: absolute;
+				top: 780px;
+				border: 1px solid black;
+			}
+			
+			.greenapple
+			{
+				position: absolute;
+				top: 1200px;
+				border: 1px solid black;
+				
+			}
+
+            
+ .error
+			{
+				position: absolute;
+				top: 1450px;
+				border: 1px solid black;
+				
+			}
+
+
+
+			.mouse
+            {
+                position: absolute;
+	            top: 335px;
+                color:white;
+            }
+
+            .log
+            {
+	            position: absolute;
+	            top: 730px;
+                color:white;
+            }
+
+            .glob
+            {
+	            position: absolute;
+	            top: 1130px;
+                color:white;
+            }
+            .apple
+            {
+	            position: absolute;
+	            top: 1400px;
+                color:white;
+            }
+.errtxt
+            {
+	            position: absolute;
+	            top: 1630px;
+                color:white;
+            }
+
+
+
+.midbox
+{
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    right: 20%;
+    bottom: 20%;
+    height: 1800px;
+    width: 70%;
+    background-color:#283747;
+    box-shadow: 0px 0px 10px 10px grey;
+}
+
+.headwork
+{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    top: 2%;
+    z-index: 1;
+}
+
+.img
+{
+    position: fixed;
+    top: -80px;
+    left: -10%;
+    z-index: 1;
+}
+
+.imgmd
+{
+    position: fixed;
+    top: -80px;
+    left: -20%;
+    z-index: 1;
+}
+
+.imgsm
+{
+    position: fixed;
+    top: -80px;
+    left: -20%;
+    z-index: 1;
+}
+
+.imgxs
+{
+    position: fixed;
+    top: 0px;
+    left: -140px;
+    z-index: 1;
+}
+
+
+.rethome
+{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: #283747;
+    color: white;
+    top: 1750px;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #1B2631;
+}
+
+
+.rethome:hover
+{
+    background-color: white;
+    color: #283747;
+     box-shadow: 2px 2px 2px 2px white;
+}
+
+
+
+
+a:link
+{
+    color: #1B2631;
+    text-decoration: none;
+}
+a:active
+{
+    color: #1B2631;
+    text-decoration: none;
+}
+a:hover
+{
+    color:#1B2631 ;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #1B2631;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

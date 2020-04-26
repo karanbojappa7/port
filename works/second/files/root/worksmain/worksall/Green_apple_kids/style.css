@@ -1,0 +1,581 @@
+body
+{
+	font-family: serif;
+	background-image: url(pictures/bgpic.png);
+	 background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+	background-size: cover;
+}
+#bgimglg
+{
+	background-image: url(pictures/1pic.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 700px;
+}
+.bg
+{
+
+	background-attachment: fixed;
+	background-position: center;
+	height: 620px;	
+}
+.box1
+{
+	width: 1336px;
+	height: 680px;
+	background-color:;
+	position: absolute;
+	top: 630px;
+	right: 1px;
+	font-size: 20px;
+}
+.box2
+{
+	width: 1336px;
+	height: 680px;
+	background-color: ;
+	position: absolute;
+	top: 1310px;
+	right: 1px;
+}
+.box3
+{
+	width: 1336px;
+	height: 680px;
+	background-color:;
+	position: absolute;
+	top: 1990px;
+	right: 1px;	
+}
+.box4
+{
+	width: 1336px;
+	height: 680px;
+	background-color:;
+	position: absolute;
+	top: 2670px ;
+	right: 1px;
+}
+.box5
+{
+	width: 1336px;
+	height: 680px;
+	background-color:;
+	position: absolute;
+	top:3350px ;
+	right: 1px;
+}
+.box6
+{
+	width: 1336px;
+	height: 680px;
+	background-color:;
+	position: absolute;
+	top: 4030px;
+	right: 1px;
+}
+.box7
+{
+	width: 1336px;
+	height: 680px;
+	background-color: ;
+	position: absolute;
+	top: 4710px;
+	right: 1px;
+}
+.box8
+{
+	width: 1336px;
+	height: 680px;
+	background-color:;
+	position: absolute;
+	top: 5390px;
+	right: 1px;
+}
+.box9
+{
+	width: 1336px;
+	height: 680px;
+	background-color:;
+	position: absolute;
+	top: 6070px;
+	right: 0px;
+}
+/*
+.box10
+{
+	width: 1336px;
+	height: 680px;
+	background-color:;
+	position: absolute;
+	top: 6750px;
+	right: 0px;
+}
+*/
+
+
+
+
+
+.position1
+{
+	position: absolute;
+	top: 780px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.position2
+{
+	position: absolute;
+	top: 1450px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.position3
+{
+	position: absolute;
+	top: 2300px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.position4
+{
+	position: absolute;
+	top: 2950px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.position6
+{
+	position: absolute;
+	top: 4250px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.tex1
+{
+	position: absolute;
+	color: #650C5E;
+	text-shadow: 1px 2px black;
+	font-weight: bolder;
+}
+.tex2
+{
+	position: absolute;
+	top: 1320px;
+	color: blue;
+	text-shadow: 1px 2px white;
+	font-weight: bolder;
+}
+.tex3
+{
+	position: absolute;
+	top: 2040px;
+	color: #6B044D;
+	text-shadow: 1px 2px white;
+	font-weight: bolder;
+}
+.tex4
+{
+	position: absolute;
+	top: 2690px;
+	color: #E72B19;
+	text-shadow: 1px 2px white;
+	font-weight: bolder;
+}
+.tex5
+{
+	position: absolute;
+	top: 3320px;
+	color: #FB8F0E;
+	text-shadow: 1px 2px black;
+	font-weight: bolder;
+}
+.tex6
+{
+	position: absolute;
+	top: 4030px;
+	color:#0E2EFB;
+	text-shadow: 1px 2px white;
+	font-weight: bolder;
+	
+}
+.tex7
+{
+	color: crimson;
+	text-shadow: 1px 2px black;
+	font-weight: bolder;
+}
+.xs1
+{
+	position: absolute;
+	top: 700px;
+	font-size: 13px;
+	font-weight: bolder;
+}
+.xs2
+{
+	position: absolute;
+	top: 1570px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.xs3
+{
+	position: absolute;
+	top: 2400px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.xs4
+{
+	position: absolute;
+	top: 3080px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.xs6
+{
+	position: absolute;
+	top: 4320px;
+	font-size: 9px;
+	font-weight: bold;
+}
+.side1
+{
+	position: absolute;
+	top: 40px;
+	z-index: 1;
+}
+.side2
+{
+	position: absolute;
+	top: 1480px;
+	
+}
+.side3
+{
+	position: absolute;
+	top: -50px;
+}
+.side4
+{
+	position: absolute;
+	top: 2900px;
+}
+.side5
+{
+	position: absolute;
+	top: 3480px;
+}
+.side6
+{
+	height: 450px;
+	position: absolute;
+	top: 4300px;
+}
+.imagexs1
+{
+	position: absolute;
+	top: 1390px;
+}
+.imagexs3
+{
+	position: absolute;
+	top: -180px;
+}
+.imagexs4
+{
+	position: absolute;
+	top: 2770px;	
+}
+.imagexs5
+{
+	position: absolute;
+	top: 3430px;
+}
+.imagexs6
+{
+	position: absolute;
+	top: 4100px;
+}
+.table1
+{
+	position: absolute;
+	top: 3700px;
+}
+.table1xs
+{
+	position: absolute;
+	top: 3600px;
+}
+.galery
+{
+	position: absolute;
+	top: 6080px;
+	right: 15px;
+}
+ .galeryxs
+{
+	position: absolute;
+	top: 5990px;
+	right: 0px;
+}
+.ourgallery
+{
+	font-size: 30px;
+	color: azure;
+	font-weight: bolder;
+}
+.loc
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 80px;
+	background-color: deeppink;
+	color: aliceblue;
+	position: absolute;
+	top: 4980px;
+
+	z-index: 1;
+	font-size: 90px;
+	text-align: center;
+}
+.coc
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 80px;
+	color: aliceblue;
+	background-color: deeppink;
+	position: absolute;
+	top: 4980px;
+
+	z-index: 1;
+	font-size: 90px;
+	text-align: center;
+}
+.line1
+{
+	width: 1336px;
+	height: 1px;
+	background-color: black;
+	position: absolute;
+	top: 4720px ;
+	right: 1px;
+}
+.line2
+{
+	width: 3px;
+	height: 300px;
+	background-color:white;
+	position: absolute;
+	top: 4720px;
+
+}
+.line3
+{
+	width: 3px;
+	height: 300px;
+	background-color:white;
+	position: absolute;
+	top: 4720px;
+	right: px;
+}
+.cocxs
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 80px;
+	background-color: deeppink;
+	color: aliceblue;
+	position: absolute;
+	top: 5260px;
+	z-index: 1;
+	font-size: 90px;
+	text-align: center;
+	
+}
+.locxs
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 80px;
+	color: aliceblue;
+	background-color: deeppink;
+	position: absolute;
+	top: 4750px;
+	z-index: 1;
+	font-size: 90px;
+	text-align: center;
+}
+.rf
+{
+	position: absolute;
+	top: 4750px;
+}
+.rfxs
+{
+	position: absolute;
+	top: 4920px;
+}
+.prev
+{
+	position: absolute;
+	top: 280px;
+
+	font-size: 55px;
+
+	color: black;
+}
+.next
+{
+	position: absolute;
+	top: 280px;
+	font-size: 50px;
+	color: black;
+}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg:hover {opacity: 0.7;}
+/* The Modal (background) */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+}
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+.fl1
+{
+	width:400px;
+	height: 5px;
+	background: black;
+	position: absolute;
+	top: 600px;
+	right: 0px;
+}
+.fl2
+{
+	width:400px;
+	height: 5px;
+	background: black;
+	position: absolute;
+	top: 600px;
+	left: 0px;
+}
+.tag
+{
+	position: absolute;
+	top: 570px;
+	right: 420px;
+	font-size: 40px;
+	font-weight: bolder;
+	color:#6217C8;
+	text-shadow: 3px 2px black;
+}
+.allline
+{
+	width:1336px;
+	height: 5px;
+	background: black;
+	position: absolute;
+	top: 600px;
+	right: 1px;
+}
+.tagmd
+{
+	position: absolute;
+	top: 545px;
+	right: 300px;
+	font-size: 40px;
+	font-weight: bolder;
+	color:#6217C8;
+	text-shadow: 4px 2px black;
+}
+.tagxs
+{
+	position: absolute;
+	top: 545px;
+	font-size: 28px;
+	font-weight: bolder;
+	color:#6217C8;
+	text-shadow: 2px 2px black;
+}
+.tagsm
+{
+	position: absolute;
+	top: 545px;
+	font-size: 35px;
+	font-weight: bolder;
+	color:#6217C8;
+	text-shadow: 2px 2px black;
+}
+

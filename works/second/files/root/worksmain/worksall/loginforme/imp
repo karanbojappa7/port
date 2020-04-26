@@ -1,0 +1,63 @@
+	<header class="clearfix">
+		<div id="box-wrapper"></div>
+<div class="container">
+    <div class="row">
+        <div class="">
+            
+                <div class="panel-heading">
+             
+                </div>
+                <div class="panel-body">
+                    <form role="form" method="post" action="index.php">
+                        <fieldset>
+                            <div class="form-group"  >
+                                <input class="form-control email" placeholder="E-mail" name="email" type="email" autofocus>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control pass" placeholder="Password" name="pass" type="password" value="">
+                            </div>
+
+
+                                <input class="btn btn-lg btn-success log " type="submit" value="login" name="login">
+
+                        </fieldset>
+					</form>
+                </div>
+           
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container regi">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+
+                <div class="panel-heading">
+                    <h3 class="panel-title text1">Do not have a account? Then Register</h3>
+                </div>
+			
+          
+                    <form role="form" method="post" action="index.php">
+                   
+                            <div class="form-group">
+                                <input class="form-control use" placeholder="Username" name="name" type="text" autofocus>
+                            </div>
+
+                            <div class="form-group">
+                                <input class="form-control email1 " placeholder="E-mail" name="email" type="email" autofocus>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control pass1" placeholder="Password" name="pass" type="password" value="">
+                            </div>
+
+
+                            <input class="btn btn-lg btn-success btn-block  log1" type="submit" value="register" name="register" >
+
+                       
+                    </form>
+         
+        </div>
+    </div>
+</div>
